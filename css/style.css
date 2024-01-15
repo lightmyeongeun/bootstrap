@@ -1,0 +1,7 @@
+@charset "utf-8";
+nav{padding: 2rem;}
+.first-img{width: 100%;}
+footer{background: #19110b;font-size: 14px;color: #fff;}
+footer .container p{border-bottom: 1px solid #392d23;}
+.nav-item a{text-decoration: none;color: #fff;}
+.nav-item{padding: 0 10px;}
