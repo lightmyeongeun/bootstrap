@@ -1,1 +1,51 @@
 @charset "utf-8";
+nav{padding: 4rem;font-weight: 700;}
+.nav-item a{text-decoration: none;color: #000;}
+.nav-item .nav-link{margin: 0 12px;}
+.nav-item .nav-link.red{color: #c41e20;font-weight: 600;}
+.d-flex .big{font-size: 25px;}
+.d-flex i{padding: 0 14px;}
+
+.first-img{width: 100%;}
+.weekly h2{font-weight: bold;font-size: 40px;}
+
+.nav-underline .nav-link{font-size: 20px;}
+.nav-underline .nav-link.active{color: #c41e20;}
+
+.card{position: relative;}
+.card .num {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+}
+
+.card .num.num_c{background-color: #e86434;}
+.card .num.num_g{background-color: #b5b5b5;}
+
+.card{border: 0;}
+.card .card-body{padding: 20px 0;}
+.card .card-body .card-title{font-size: 16px;display: flex;justify-content: space-between;}
+.card .card-body .card-subtitle{font-size: 22px;font-weight: 700;}
+.card .card-body .card-text{font-size: 14px;color: #9a9a9a;margin-top: 18px;}
+
+.banner_list{margin: 100px 0 120px;display: flex;}  
+.banner_list img{width: 100%;}
+
+footer{background-color: #f7f7f7;}
+footer .container h5{font-weight: 800;}
+footer .container .text-muted{font-size: 14px;margin-bottom: 5px;}
+footer .container .text-grey{font-size: 14px;color: #909090;margin-bottom: 5px;}
+
+@media screen and (max-width:1199.98px){
+    .nav-item a{font-size: 14px;}
+    .nav-item .nav-link{margin: 0 2px;}
+    .d-flex .big{font-size: 16px;}
+}
