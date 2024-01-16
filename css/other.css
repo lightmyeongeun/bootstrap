@@ -48,11 +48,11 @@ footer .container .text-grey{font-size: 14px;color: #909090;margin-bottom: 5px;}
     .nav-item a{font-size: 14px;}
     .nav-item .nav-link{margin: 0 2px;}
     .d-flex .big{font-size: 16px;}
+    .banner_list{display: block;}  
+    .banner_list img{padding-bottom: 50px}  
         
 }
 
 @media screen and (max-width:767.98px){
-    .banner_list{display: block;}  
-    .banner_list img{padding-bottom: 50px}  
     
 }
